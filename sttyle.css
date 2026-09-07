@@ -1,11 +1,70 @@
-body{
+body {
  background-color: #1E1E2E;
+ min-height: 100vh;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ font-family: Arial, sans-serif;
 }
 
-.display_section{
+.display_section {
  background-color: #11111B;
+ color: #CDD6F4;
+
 }
 
-.button_section{
- display:grid
+
+.button_section {
+ display: grid;
+ justify-content: center;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 5px;
+ border: #89B4FA;
+}
+
+button:hover {
+ background-color: #171720;
+}
+
+
+button:active {
+ color: white;
+ transform: scale(0.95);
+}
+
+.result {
+ background-color: #A6E3A1;
+ color: white;
+}
+
+.result:hover {
+ background-color: #8FD18F;
+}
+
+.clear {
+ background-color: #F38BA8;
+ color: white;
+}
+
+.clear:hover {
+ background-color: #E76F8A;
+}
+
+.operator {
+ background-color: #89B4FA;
+ color: white;
+}
+
+.operator:hover {
+ background-color: #6FA0E8;
+}
+
+.calculator {
+ width: 350px;
+ background-color: #1E1E2E;
+ border-radius: 15px;
+ overflow: hidden;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }

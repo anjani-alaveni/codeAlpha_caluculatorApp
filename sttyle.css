@@ -12,7 +12,9 @@ body {
 .display_section {
  background-color: #11111B;
  color: #CDD6F4;
-
+ font-size: 35px;
+ text-align: right;
+ padding: 15px;
 }
 
 
@@ -20,12 +22,14 @@ body {
  display: grid;
  justify-content: center;
  grid-template-columns: repeat(4, 1fr);
- gap: 5px;
- border: #89B4FA;
+ gap: 8px;
+ padding: 15px;
+ background-color: #1E1E2E;
 }
 
 button:hover {
  background-color: #171720;
+ color: white;
 }
 
 

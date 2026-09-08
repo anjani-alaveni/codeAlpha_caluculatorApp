@@ -11,7 +11,13 @@ buttons.forEach(function (button) {
   let value = button.innerText;
 
   if (!isNaN(value) || value === ".") {
-   display.value += value;
+
+   if (display.value === "0") {
+    display.value = value;
+   } else {
+    display.value += value;
+   }
+
   }
 
   else if (button.classList.contains("operator") &&

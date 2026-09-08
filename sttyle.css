@@ -1,7 +1,21 @@
+* {
+ box-sizing: border-box;
+}
+
+.calculator {
+ max-width: 350px;
+ width: 90%;
+ background-color: #1E1E2E;
+ border-radius: 15px;
+ overflow: hidden;
+ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
 body {
  background-color: #1E1E2E;
  min-height: 100vh;
-
+ margin: 0;
+ padding: 15px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -14,7 +28,7 @@ body {
  box-sizing: border-box;
  background-color: #11111B;
  color: #CDD6F4;
- font-size: 35px;
+ font-size: clamp(24px, 8vw, 35px);
  text-align: right;
  padding: 15px;
 }
@@ -85,12 +99,4 @@ button:active {
 .backspace {
  background-color: #89B4FA;
  color: white;
-}
-
-.calculator {
- width: 350px;
- background-color: #1E1E2E;
- border-radius: 15px;
- overflow: hidden;
- box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }

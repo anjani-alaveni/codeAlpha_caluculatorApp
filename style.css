@@ -2,22 +2,29 @@
  box-sizing: border-box;
 }
 
+.title_section {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 40px;
+ margin-bottom: 15px;
+}
+
 .calculator_title {
  color: #CDD6F4;
  text-align: center;
  font-size: 32px;
- margin: 0 0 15px 0;
+ margin: 0;
  font-weight: bold;
 
 }
 
 
 #themeButton {
- padding: 10px 15px;
+ padding: 8px 12px;
  border: none;
  border-radius: 8px;
  cursor: pointer;
- margin-bottom: 15px;
  font-size: 14px;
 }
 
@@ -125,21 +132,21 @@ button:active {
 /* Copy Result Button */
 
 #copyResult {
-    width: 100px;
-    min-width: 100px;
-    max-width: 100px;
-    margin: 10px auto;
-    padding: 10px;
-    background-color: #89B4FA;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    display: block;
+ width: 100px;
+ min-width: 100px;
+ max-width: 100px;
+ margin: 10px auto;
+ padding: 10px;
+ background-color: #89B4FA;
+ color: white;
+ border: none;
+ border-radius: 8px;
+ cursor: pointer;
+ display: block;
 }
 
 #copyResult:hover {
-    background-color: #6F9EE8;
+ background-color: #6F9EE8;
 }
 
 /* =========================

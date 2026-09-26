@@ -4,13 +4,15 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>Calculator</title>
+ <title>MyCalci</title>
  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+ <h1 class="calculator_title">MyCalci</h1> <button id="themeButton">☀️ Light Mode</button> <button id="copyResult">📋 Copy</button>
  <div class="calculator">
+
   <section class="display_section">
    <input type="text" id="display" value="0" readonly>
   </section>
@@ -40,6 +42,11 @@
    <button>.</button>
    <button class="result">=</button>
   </section>
+ </div>
+ <div class="history">
+  <h2>Calculation History</h2>
+  <div id="historyList"></div>
+  <button id="clearHistory">Clear History</button>
  </div>
  <script src="script.js"></script>
 </body>

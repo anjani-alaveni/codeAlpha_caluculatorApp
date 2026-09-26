@@ -125,18 +125,21 @@ button:active {
 /* Copy Result Button */
 
 #copyResult {
- width: 100px;
- margin: 10px 0;
- padding: 10px;
- background-color: #89B4FA;
- color: white;
- border: none;
- border-radius: 8px;
- cursor: pointer;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #89B4FA;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
 }
 
 #copyResult:hover {
- background-color: #6F9EE8;
+    background-color: #6F9EE8;
 }
 
 /* =========================

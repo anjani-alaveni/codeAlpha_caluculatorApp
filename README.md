@@ -59,7 +59,8 @@ The calculator can also be operated using the keyboard:
 
 Enter → Calculate result
 
-Backspace → Delete the last character
+Backspace → Delete the last character .
+
 
 Escape → Clear the display
 

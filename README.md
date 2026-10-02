@@ -11,7 +11,7 @@ JavaScript.
 🚀 Live Demo
 
 GitHub Pages:
-Add your deployed project link here
+https://anjani-alaveni.github.io/codeAlpha_caluculatorApp/
 
 📌 Features
 
